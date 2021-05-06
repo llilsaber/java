@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;랜덤.java&apos; to &apos;xmrqufqks/src/two&apos;&#x0D;&#x0A;- Original project: &apos;java111&apos;&#x0D;&#x0A;- Destination element: &apos;xmrqufqks/src/two&apos;&#x0D;&#x0A;- Original element: &apos;연습용.랜덤.java&apos;" description="Copy compilation unit" destination="=xmrqufqks/src&lt;two" element1="/src&lt;연습용{랜덤.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1615165045871" units="1" version="1.0"/>
+</session>

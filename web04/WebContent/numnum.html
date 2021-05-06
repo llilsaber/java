@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>간단한 계산기</title>
+        <script>
+            function sum(){
+                var v1 = Number(document.getElementById("v1").value); // 수정된 부분
+                var v2 = Number(document.getElementById("v2").value); // 수정된 부분
+                var res;
+
+                res = v1+v2;
+                
+                document.getElementById("res").value = res;
+            }
+            function minu(){
+                var v1 = Number(document.getElementById("v1").value); // 수정된 부분
+                var v2 = Number(document.getElementById("v2").value); // 수정된 부분
+                var res;
+
+                res = v1-v2;
+                
+                document.getElementById("res").value = res;
+            }
+            function mul(){
+                var v1 = Number(document.getElementById("v1").value); // 수정된 부분
+                var v2 = Number(document.getElementById("v2").value); // 수정된 부분
+                var res;
+
+                res = v1*v2;
+                
+                document.getElementById("res").value = res;
+            }
+            function div(){
+                var v1 = Number(document.getElementById("v1").value); // 수정된 부분
+                var v2 = Number(document.getElementById("v2").value); // 수정된 부분
+                var res;
+
+                res = v1/v2;
+                
+                document.getElementById("res").value = res;
+            }
+        </script>
+    </head>
+    <body>
+       	 값1: <input type="text" id="v1"><br>
+       	 값2: <input type="text" id="v2"><br>
+       	 결과: <input type="text" id="res">
+        <br><br>
+        <input type="button" value="더하기" onclick="sum()">
+        <input type="button" value="빼기" onclick="minu()">
+        <input type="button" value="곱하기" onclick="mul()">
+        <input type="button" value="나누기" onclick="div()">
+    </body>
+</html>

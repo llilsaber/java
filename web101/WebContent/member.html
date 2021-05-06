@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<link rel="stylesheet" type="text/css" href="one.css">
+<title>Insert title here</title>
+<script type="text/javascript" src="out.js"></script>
+<script type="text/javascript">
+	welcome()
+</script>
+<script type="text/javascript">
+	//alert('내가 동적으로 떠요!!')
+	id = prompt('id를 입력하세요.')
+	alert('글자수 ' + id.length)
+	if (id.length >= 5) {
+		alert('id가 5글자 이상입니다.')
+	} else {
+		alert('id가 5글자 미만입니다. 다시 입력해주세요.')
+	}
+</script>
+</head>
+<body>
+	<h3>회원 가입 화면입니다.</h3>
+	아이디 :
+	<input>
+	<br> 패스워드 :
+	<input>
+	<br> 이름 :
+	<input>
+	<br> 연락처 :
+	<input>
+	<br>
+	<button>회원가입처리 요청</button>
+	<hr>
+	<a href="check.html">id체크</a>
+</body>
+</html>

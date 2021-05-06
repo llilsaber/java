@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.in{ /* 여러게 class로 선택*/
+	background: pink;
+}
+
+body{
+	color: blue;
+}
+
+#b{ /* 특정한것 id로 하나 선택 */
+	background: yellow;
+	color: red;
+}
+
+input{
+	font-size: 20px;
+}

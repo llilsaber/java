@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;네이버크롤링.java&apos; to &apos;java27/src/파일저장&apos;&#x0D;&#x0A;- Original project: &apos;java26&apos;&#x0D;&#x0A;- Destination element: &apos;java27/src/파일저장&apos;&#x0D;&#x0A;- Original element: &apos;스태틱.네이버크롤링.java&apos;" description="Copy compilation unit" destination="=java27/src&lt;파일저장" element1="/src&lt;스태틱{네이버크롤링.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1614927835794" units="1" version="1.0"/>
+</session>
